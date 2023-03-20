@@ -4,9 +4,9 @@ This is a C# console application that calculates the lesser angle between the ho
 
 The user is prompted to enter the hour (1-12) and minute (0-59) using the `Console.Write` and `Console.ReadLine` methods. The input is validated to ensure that the values are within the valid range.
 
-If the input is valid, the hour angle and minute angle are calculated using following way
+If the input is valid,
 
-## Certainly! The calculation to find the lesser angle between the hour and minute hands of an analog clock is a bit tricky, but it can be broken down into a few steps
+##The calculation to find the lesser angle between the hour and minute hands of an analog clock is a bit tricky, but it can be broken down into a few steps
 
 ### 01)Calculate the hour angle
 The hour hand of an analog clock moves 30 degrees in 1 hour, or 0.5 degrees per minute. However, the hour hand also moves a fraction of a degree based on the position of the minute hand. To account for this, we need to calculate the fractional hour value by taking the remainder of the hour divided by 12, and then adding the minute value divided by 60 multiplied by 0.5. Finally, we multiply this value by 30 to get the angle in degrees.
